@@ -37,7 +37,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-
 }
 
 .header__top {
@@ -114,56 +113,56 @@ header {
   padding-top: 475px;
 }
 
-.final{
+.final {
   padding: 100px 0 100px;
   display: flex;
 }
 
-.final__title, .teams__title{
+.final__title,
+.teams__title {
   font-weight: 300;
   font-size: 32px;
   line-height: 38px;
   padding-bottom: 34px;
 }
 
-.final__text{
+.final__text {
   display: flex;
   padding-bottom: 30px;
 }
 
-.final__text p{
+.final__text p {
   max-width: 439px;
   padding-right: 20px;
 }
 
-.final__text b{
+.final__text b {
   max-width: 438px;
 }
 
-.final__img{
+.final__img {
 }
 
-.teams{
+.teams {
   display: flex;
   padding-bottom: 66px;
 }
 
-.teams__title{
+.teams__title {
   padding-bottom: 30px;
 }
 
-.teams__content{
+.teams__content {
   display: flex;
 }
 
-.teams__text p{
+.teams__text p {
   max-width: 352px;
   padding-bottom: 30px;
-
 }
 
-.teams__jpg{
+.teams__jpg {
   padding-left: 106px;
+  max-width: 437px;
+  max-height: 302px;
 }
-
-
