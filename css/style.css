@@ -36,8 +36,8 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
-  width: 1600px;
+  height: 100vh;
+
 }
 
 .header__top {
@@ -113,3 +113,57 @@ header {
 .header__arrow {
   padding-top: 475px;
 }
+
+.final{
+  padding: 100px 0 100px;
+  display: flex;
+}
+
+.final__title, .teams__title{
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 34px;
+}
+
+.final__text{
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.final__text p{
+  max-width: 439px;
+  padding-right: 20px;
+}
+
+.final__text b{
+  max-width: 438px;
+}
+
+.final__img{
+}
+
+.teams{
+  display: flex;
+  padding-bottom: 66px;
+}
+
+.teams__title{
+  padding-bottom: 30px;
+}
+
+.teams__content{
+  display: flex;
+}
+
+.teams__text p{
+  max-width: 352px;
+  padding-bottom: 30px;
+
+}
+
+.teams__jpg{
+  padding-left: 106px;
+}
+
+
