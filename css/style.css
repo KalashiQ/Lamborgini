@@ -119,7 +119,8 @@ header {
 }
 
 .final__title,
-.teams__title {
+.teams__title,
+.calendar__title {
   font-weight: 300;
   font-size: 32px;
   line-height: 38px;
@@ -166,3 +167,32 @@ header {
   max-width: 437px;
   max-height: 302px;
 }
+
+.calendar{
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.calendar__title{
+  text-transform: uppercase;
+  max-width: 415px;
+}
+
+.calendar__text{
+  max-width: 415px;
+}
+
+.calendar__table{
+  display: flex;
+}
+
+.calendar__right{
+
+}
+.calendar__left{
+  
+}
+
+
+
+
