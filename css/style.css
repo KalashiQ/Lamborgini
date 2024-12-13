@@ -141,11 +141,7 @@ header {
   max-width: 438px;
 }
 
-.final__img {
-}
-
 .teams {
-  display: flex;
   padding-bottom: 66px;
 }
 
@@ -155,6 +151,7 @@ header {
 
 .teams__content {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .teams__text p {
@@ -168,31 +165,38 @@ header {
   max-height: 302px;
 }
 
-.calendar{
-  display: flex;
+.calendar {
   padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.calendar__title{
+.calendar__title {
   text-transform: uppercase;
   max-width: 415px;
+  padding-bottom: 30px;
 }
 
-.calendar__text{
-  max-width: 415px;
+.calendar__text {
+  max-width: 377px;
 }
 
-.calendar__table{
+.calendar__table {
   display: flex;
 }
 
-.calendar__right{
-
-}
-.calendar__left{
-  
+.calendar__left {
+  padding-right: 50px;
 }
 
+.table__item-1 p,
+.table__item-2 p,
+.table__item-3 p {
+  padding: 0 20px 20px 0;
+}
 
-
-
+.table__line {
+  padding: 0px 0 20px;
+  width: 98%;
+}
