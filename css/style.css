@@ -92,7 +92,7 @@ header {
   text-align: center;
 }
 
-.main__title {
+.main__title-header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #000;
   font-size: 76px;
@@ -125,10 +125,7 @@ header {
   display: flex;
 }
 
-.final__title,
-.teams__title,
-.calendar__title,
-.trail__title {
+.main__title {
   font-weight: 300;
   font-size: 32px;
   line-height: 38px;
@@ -183,7 +180,7 @@ header {
 }
 
 .calendar {
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -238,19 +235,47 @@ header {
 
 .trail__img {
   padding-top: 250px;
-  display: block; /* Убираем inline-смещение */
+  display: block;
   margin: 0 auto;
 }
 
-.super-trofeo {
-  height: 1295px;
-}
-
-.grey__content {
+.st__grey {
   height: 871px;
-  background-image: url(../images/super-trofeo__background.png);
+  background-image: url(../images/st__background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.white__content {
+.st__grey-title {
+  color: #ffff;
+  padding-right: 185px;
+}
+
+.st__grey-content-up {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.st__grey-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.st__grey p {
+  color: #ffff;
+  font-weight: 200;
+  max-width: 437px;
+  padding: 0 0 30px 100px;
+}
+
+.st__grey-content-down {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+
+.st__white {
   height: 424px;
 }
