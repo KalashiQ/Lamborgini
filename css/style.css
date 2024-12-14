@@ -36,7 +36,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 85vh;
 }
 
 .header__top {
@@ -48,16 +48,22 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 0;
 }
 
 .menu {
   display: flex;
 }
 
-/* .menu__logo {
+.menu__logo {
   position: absolute;
-} */
+  padding-top: 25px;
+  transform: translate(-70px, -49px);
+}
+
+.menu__img {
+  width: 83px;
+  height: 95px;
+}
 
 .menu__list {
   display: flex;
@@ -71,14 +77,15 @@ header {
 .menu__right {
   display: flex;
   gap: 40px;
+  position: relative;
 }
 
 .menu__left {
-  padding-left: 25px;
+  padding: 50px 120px 30px 25px;
 }
 
 .menu__right {
-  padding-right: 86px;
+  padding: 50px 25px 30px 125px;
 }
 
 .header__content {
@@ -110,7 +117,7 @@ header {
 }
 
 .header__arrow {
-  padding-top: 475px;
+  padding-top: 440px;
 }
 
 .final {
@@ -120,7 +127,8 @@ header {
 
 .final__title,
 .teams__title,
-.calendar__title {
+.calendar__title,
+.trail__title {
   font-weight: 300;
   font-size: 32px;
   line-height: 38px;
@@ -130,6 +138,10 @@ header {
 .final__text {
   display: flex;
   padding-bottom: 30px;
+}
+
+.final__img {
+  max-width: 100%;
 }
 
 .final__text p {
@@ -142,16 +154,23 @@ header {
 }
 
 .teams {
-  padding-bottom: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.teams__content {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .teams__title {
   padding-bottom: 30px;
 }
 
-.teams__content {
-  display: flex;
-  justify-content: space-evenly;
+.teams__text {
+  padding-right: 145px;
 }
 
 .teams__text p {
@@ -160,9 +179,7 @@ header {
 }
 
 .teams__jpg {
-  padding-left: 106px;
-  max-width: 437px;
-  max-height: 302px;
+  max-width: 100%;
 }
 
 .calendar {
@@ -187,7 +204,7 @@ header {
 }
 
 .calendar__left {
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 .table__item-1 p,
@@ -199,4 +216,41 @@ header {
 .table__line {
   padding: 0px 0 20px;
   width: 98%;
+}
+
+.trail {
+  background-image: url(../images/trail.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  height: 95vh;
+}
+
+.trail__text {
+  padding: 47px 455px 0 0;
+}
+
+.trail__text p {
+  max-width: 434px;
+}
+
+.trail__img {
+  padding-top: 250px;
+  display: block; /* Убираем inline-смещение */
+  margin: 0 auto;
+}
+
+.super-trofeo {
+  height: 1295px;
+}
+
+.grey__content {
+  height: 871px;
+  background-image: url(../images/super-trofeo__background.png);
+}
+
+.white__content {
+  height: 424px;
 }
