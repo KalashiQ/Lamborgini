@@ -274,6 +274,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 65px;
+  max-width: 100px;
 }
 
 .st__white {
