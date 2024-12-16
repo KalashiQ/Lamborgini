@@ -133,7 +133,7 @@ header {
 }
 
 .main__title {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 32px;
   line-height: 38px;
   padding-bottom: 34px;
@@ -354,6 +354,7 @@ header {
 .blog__title {
   padding-left: 150px;
 }
+
 .blog__arrows {
   display: flex;
   justify-content: center;
@@ -416,4 +417,104 @@ header {
 .blog__reading-more {
   font-size: 12px;
   padding-top: 10px;
+}
+
+.quotes {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.quotes__content {
+  display: flex;
+  justify-content: center;
+}
+
+.quotes__text {
+  display: flex;
+  flex-direction: column;
+  width: 434px;
+}
+
+.rank {
+  padding-bottom: 3px;
+  color: #9f6b08;
+}
+
+.name {
+  padding-bottom: 10px;
+  color: #040404;
+}
+
+.quote {
+  padding-bottom: 30px;
+}
+
+.quotes__img {
+  padding-left: 65px;
+}
+
+.footer {
+  background-image: url(../images/st__background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 742px;
+  color: #ffff;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.footer__contacts {
+  padding-right: 270px;
+}
+
+.contacts__title {
+  padding: 100px 0 50px 0;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+}
+
+.general__title {
+  padding-bottom: 20px;
+}
+
+.general a {
+  padding-bottom: 10px;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.tickets__title {
+  padding: 50px 0 20px;
+}
+
+.tickets a {
+  padding-bottom: 10px;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
